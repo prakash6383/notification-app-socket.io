@@ -1,0 +1,55 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(to right, #000046, #1cb5e0); 
+}
+
+.container {
+  width: 50vh;
+  border-radius: 5px;
+  border: 0.5px solid rgb(208, 230, 229);
+  background: linear-gradient(to right, #000000, #434343);
+}
+
+.login {
+  height: 50vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  width: 50%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+button {
+  width: 30%;
+  padding: 10px;
+  background: linear-gradient(to right, #000046, #1cb5e0); 
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.username {
+  font-weight: bold;
+  color: white;
+  position: absolute;
+  top: 15px;
+  right: 20px;
+}
+
+h2{
+  margin-bottom: 30px;
+  
+  color: white;
+  padding: 3px 5px;
+  border-radius: 5px;
+}
